@@ -1,0 +1,26 @@
+.container {
+  padding: 16px;
+}
+
+.stop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 12px;
+  margin-bottom: 8px;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  cursor: pointer;
+}
+
+.stop:hover {
+  background: #f9fafb;
+}
+
+.distance {
+  color: #6b7280;
+  font-size: 14px;
+}

@@ -1,0 +1,3246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Audit 24 May</name>
+    <description/>
+    <Style id="icon-1899-BDBDBD-labelson">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-DB4436-nodesc-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-DB4436-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-DB4436-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-E65100-labelson">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-F9A825-labelson">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="icon-1899-FBC02D-labelson">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Audit1</name>
+      <Placemark>
+        <name>MIG</name>
+        <address>KPHB Colony MIG</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 07:41:30<br>Location: MIG<br>Is the name of the bus stand clearly displayed?: <br>Is there seating?: <br>Is there a route map available?: <br>Shelter: <br>Schedule: <br>Pedestrian access to bus stand: <br>Expanded URL: KPHB Colony MIG<br>address: KPHB Colony MIG<br>Timestamp: 24/05/2026 07:41:30<br>Location: MIG<br>Is the name of the bus stand clearly displayed?: <br>Is there seating?: <br>Is there a route map available?: <br>Shelter: <br>Schedule: <br>Pedestrian access to bus stand: <br>Expanded URL: KPHB Colony MIG]]></description>
+        <styleUrl>#icon-1899-BDBDBD-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 07:41:30
+Location: MIG
+Is the name of the bus stand clearly displayed?: 
+Is there seating?: 
+Is there a route map available?: 
+Shelter: 
+Schedule: 
+Pedestrian access to bus stand: 
+Expanded URL: KPHB Colony MIG</value>
+          </Data>
+          <Data name="address">
+            <value>KPHB Colony MIG</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 07:41:30</value>
+          </Data>
+          <Data name="Location">
+            <value>MIG</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value/>
+          </Data>
+          <Data name="Is there seating?">
+            <value/>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value/>
+          </Data>
+          <Data name="Shelter">
+            <value/>
+          </Data>
+          <Data name="Schedule">
+            <value/>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value/>
+          </Data>
+          <Data name="Expanded URL">
+            <value>KPHB Colony MIG</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>KPHB 4th phase</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 07:44:50<br>Location: https://maps.app.goo.gl/9u1LaxKYH9jcnaNq6<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: One side available towards Hitech City <br>Schedule: Partialy visible<br>Pedestrian access to bus stand: No<br>Expanded URL: KPHB 4th Phase<br>address: <br>Timestamp: 24/05/2026 07:44:50<br>Location: https://maps.app.goo.gl/9u1LaxKYH9jcnaNq6<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: One side available towards Hitech City<br>Schedule: Partialy visible<br>Pedestrian access to bus stand: No<br>Expanded URL: KPHB 4th Phase]]></description>
+        <styleUrl>#icon-1899-F9A825-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 07:44:50
+Location: https://maps.app.goo.gl/9u1LaxKYH9jcnaNq6
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: One side available towards Hitech City 
+Schedule: Partialy visible
+Pedestrian access to bus stand: No
+Expanded URL: KPHB 4th Phase</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 07:44:50</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/9u1LaxKYH9jcnaNq6</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>One side available towards Hitech City</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Partialy visible</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>KPHB 4th Phase</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.387693,17.472696,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yashodha</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 07:46:32<br>Location: https://maps.app.goo.gl/3YQGGA8omq7HbVgu8<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: 17.462086, 78.385356<br>address: <br>Timestamp: 24/05/2026 07:46:32<br>Location: https://maps.app.goo.gl/3YQGGA8omq7HbVgu8<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: 17.462086, 78.385356]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 07:46:32
+Location: https://maps.app.goo.gl/3YQGGA8omq7HbVgu8
+Is the name of the bus stand clearly displayed?: No
+Is there seating?: No
+Is there a route map available?: No
+Shelter: No
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: 17.462086, 78.385356</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 07:46:32</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/3YQGGA8omq7HbVgu8</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>No</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>17.462086, 78.385356</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.385426,17.463176,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cyber towers</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 07:51:14<br>Location: https://maps.app.goo.gl/9tcR9P5naFNbLFiF6<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Cyber Towers<br>address: <br>Timestamp: 24/05/2026 07:51:14<br>Location: https://maps.app.goo.gl/9tcR9P5naFNbLFiF6<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Cyber Towers]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 07:51:14
+Location: https://maps.app.goo.gl/9tcR9P5naFNbLFiF6
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: No
+Expanded URL: Cyber Towers</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 07:51:14</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/9tcR9P5naFNbLFiF6</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Cyber Towers</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.380396,17.450785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>opp. cyber gate way</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 07:56:28<br>Location: https://maps.app.goo.gl/371JG4bcpfYrUzbs9?g_st=ac<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: TCS Deccan Park<br>address: <br>Timestamp: 24/05/2026 07:56:28<br>Location: https://maps.app.goo.gl/371JG4bcpfYrUzbs9?g_st=ac<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: TCS Deccan Park]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 07:56:28
+Location: https://maps.app.goo.gl/371JG4bcpfYrUzbs9?g_st=ac
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: TCS Deccan Park</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 07:56:28</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/371JG4bcpfYrUzbs9?g_st=ac</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>TCS Deccan Park</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.377712,17.446254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Raheja Mind space</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 07:57:16<br>Location: https://maps.app.goo.gl/371JG4bcpfYrUzbs9?g_st=ac<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Raheja Mind Space<br>address: <br>Timestamp: 24/05/2026 07:57:16<br>Location: https://maps.app.goo.gl/371JG4bcpfYrUzbs9?g_st=ac<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Raheja Mind Space]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 07:57:16
+Location: https://maps.app.goo.gl/371JG4bcpfYrUzbs9?g_st=ac
+Is the name of the bus stand clearly displayed?: No
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: Raheja Mind Space</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 07:57:16</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/371JG4bcpfYrUzbs9?g_st=ac</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Raheja Mind Space</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.377415,17.442642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bio diversity</name>
+        <address>17.429028074176127, 78.37436739496296</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 07:59:44<br>Location: https://maps.app.goo.gl/ebh5CniRnp5Ep3N17<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: 17.429028074176127, 78.37436739496296<br>address: 17.429028074176127, 78.37436739496296<br>Timestamp: 24/05/2026 07:59:44<br>Location: https://maps.app.goo.gl/ebh5CniRnp5Ep3N17<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: 17.429028074176127, 78.37436739496296]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 07:59:44
+Location: https://maps.app.goo.gl/ebh5CniRnp5Ep3N17
+Is the name of the bus stand clearly displayed?: No
+Is there seating?: No
+Is there a route map available?: No
+Shelter: No
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: 17.429028074176127, 78.37436739496296</value>
+          </Data>
+          <Data name="address">
+            <value>17.429028074176127, 78.37436739496296</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 07:59:44</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/ebh5CniRnp5Ep3N17</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>No</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>17.429028074176127, 78.37436739496296</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Care hospitals Gacchibowli</name>
+        <address>17.43086745904221, 78.37240788056326</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 08:01:02<br>Location: <br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: 17.43086745904221, 78.37240788056326<br>address: 17.43086745904221, 78.37240788056326<br>Timestamp: 24/05/2026 08:01:02<br>Location: <br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: 17.43086745904221, 78.37240788056326]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 08:01:02
+Location: 
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: No
+Expanded URL: 17.43086745904221, 78.37240788056326</value>
+          </Data>
+          <Data name="address">
+            <value>17.43086745904221, 78.37240788056326</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 08:01:02</value>
+          </Data>
+          <Data name="Location">
+            <value/>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>17.43086745904221, 78.37240788056326</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Telecom Nagar</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 08:02:19<br>Location: https://maps.app.goo.gl/gZuyXH3MVED2YjUa8<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Telecom Nagar - Gachibowli<br>address: <br>Timestamp: 24/05/2026 08:02:19<br>Location: https://maps.app.goo.gl/gZuyXH3MVED2YjUa8<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Telecom Nagar - Gachibowli]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 08:02:19
+Location: https://maps.app.goo.gl/gZuyXH3MVED2YjUa8
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: Telecom Nagar - Gachibowli</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 08:02:19</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/gZuyXH3MVED2YjUa8</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Telecom Nagar - Gachibowli</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.36754,17.435227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gacchibowli ORR Jn</name>
+        <address>Gachibowli X Road / HYD Central University</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 08:03:53<br>Location: https://maps.app.goo.gl/udAsrVSdmvg54UiU8<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Gachibowli X Road / HYD Central University<br>address: Gachibowli X Road / HYD Central University<br>Timestamp: 24/05/2026 08:03:53<br>Location: https://maps.app.goo.gl/udAsrVSdmvg54UiU8<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Gachibowli X Road / HYD Central University]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 08:03:53
+Location: https://maps.app.goo.gl/udAsrVSdmvg54UiU8
+Is the name of the bus stand clearly displayed?: No
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: Gachibowli X Road / HYD Central University</value>
+          </Data>
+          <Data name="address">
+            <value>Gachibowli X Road / HYD Central University</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 08:03:53</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/udAsrVSdmvg54UiU8</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Gachibowli X Road / HYD Central University</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IDBI Bank</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 08:06:38<br>Location: https://maps.app.goo.gl/Q1jTL8syPHmGg7hi8<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: IDBI Bank - ISB Road - SV<br>address: <br>Timestamp: 24/05/2026 08:06:38<br>Location: https://maps.app.goo.gl/Q1jTL8syPHmGg7hi8<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: IDBI Bank - ISB Road - SV]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 08:06:38
+Location: https://maps.app.goo.gl/Q1jTL8syPHmGg7hi8
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: No
+Expanded URL: IDBI Bank - ISB Road - SV</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 08:06:38</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/Q1jTL8syPHmGg7hi8</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>IDBI Bank - ISB Road - SV</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.352372,17.444384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Infosys</name>
+        <address>Infosys - SV</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 08:08:57<br>Location: https://maps.app.goo.gl/7uCxZLGZ6naczWAj7?g_st=ac<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Infosys - SV<br>address: Infosys - SV<br>Timestamp: 24/05/2026 08:08:57<br>Location: https://maps.app.goo.gl/7uCxZLGZ6naczWAj7?g_st=ac<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Infosys - SV]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 08:08:57
+Location: https://maps.app.goo.gl/7uCxZLGZ6naczWAj7?g_st=ac
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: No
+Schedule: Yes
+Pedestrian access to bus stand: No
+Expanded URL: Infosys - SV</value>
+          </Data>
+          <Data name="address">
+            <value>Infosys - SV</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 08:08:57</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/7uCxZLGZ6naczWAj7?g_st=ac</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>No</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Infosys - SV</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Nanakramguda Infotech</name>
+        <address>Nanakramguda</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 08:13:48<br>Location: https://maps.app.goo.gl/qbM3QctzxAfV4FzL8<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Nanakramguda<br>address: Nanakramguda<br>Timestamp: 24/05/2026 08:13:48<br>Location: https://maps.app.goo.gl/qbM3QctzxAfV4FzL8<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Nanakramguda]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 08:13:48
+Location: https://maps.app.goo.gl/qbM3QctzxAfV4FzL8
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: Nanakramguda</value>
+          </Data>
+          <Data name="address">
+            <value>Nanakramguda</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 08:13:48</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/qbM3QctzxAfV4FzL8</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Nanakramguda</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Waverock Sez</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 08:21:08<br>Location: https://maps.app.goo.gl/4XretwD8axZezBJu8<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Waverock Sez<br>address: <br>Timestamp: 24/05/2026 08:21:08<br>Location: https://maps.app.goo.gl/4XretwD8axZezBJu8<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Waverock Sez]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 08:21:08
+Location: https://maps.app.goo.gl/4XretwD8axZezBJu8
+Is the name of the bus stand clearly displayed?: No
+Is there seating?: No
+Is there a route map available?: No
+Shelter: No
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: Waverock Sez</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 08:21:08</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/4XretwD8axZezBJu8</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>No</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Waverock Sez</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.346902,17.420339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waverock</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 08:34:50<br>Location: https://maps.app.goo.gl/N8Fbo86kABna54497<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Waverock Sez<br>address: <br>Timestamp: 24/05/2026 08:34:50<br>Location: https://maps.app.goo.gl/N8Fbo86kABna54497<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Waverock Sez]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 08:34:50
+Location: https://maps.app.goo.gl/N8Fbo86kABna54497
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: No
+Expanded URL: Waverock Sez</value>
+          </Data>
+          <Data name="address">
+            <value/>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 08:34:50</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/N8Fbo86kABna54497</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Waverock Sez</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.348266,17.419739,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ICICI Junction</name>
+        <address>ICICI Junction</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 09:30:30<br>Location: https://maps.app.goo.gl/qVCuW7RWtpugRWH87<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: Yes<br>Expanded URL: ICICI Junction<br>address: ICICI Junction<br>Timestamp: 24/05/2026 09:30:30<br>Location: https://maps.app.goo.gl/qVCuW7RWtpugRWH87<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: Yes<br>Expanded URL: ICICI Junction]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 09:30:30
+Location: https://maps.app.goo.gl/qVCuW7RWtpugRWH87
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: Yes
+Expanded URL: ICICI Junction</value>
+          </Data>
+          <Data name="address">
+            <value>ICICI Junction</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 09:30:30</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/qVCuW7RWtpugRWH87</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>Yes</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>ICICI Junction</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Wipro Circle Nanakramguda Guda</name>
+        <address>Wipro Circle</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 09:31:42<br>Location: https://maps.app.goo.gl/aLio53WawQR9MZA86<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Wipro Circle<br>address: Wipro Circle<br>Timestamp: 24/05/2026 09:31:42<br>Location: https://maps.app.goo.gl/aLio53WawQR9MZA86<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Wipro Circle]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 09:31:42
+Location: https://maps.app.goo.gl/aLio53WawQR9MZA86
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: No
+Pedestrian access to bus stand: Yes
+Expanded URL: Wipro Circle</value>
+          </Data>
+          <Data name="address">
+            <value>Wipro Circle</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 09:31:42</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/aLio53WawQR9MZA86</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>Yes</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Wipro Circle</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Infosys</name>
+        <address>Opp Infosys</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 09:37:35<br>Location: https://maps.app.goo.gl/P7scVpDiBAyb3Wmi6<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Opp Infosys<br>address: Opp Infosys<br>Timestamp: 24/05/2026 09:37:35<br>Location: https://maps.app.goo.gl/P7scVpDiBAyb3Wmi6<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Opp Infosys]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 09:37:35
+Location: https://maps.app.goo.gl/P7scVpDiBAyb3Wmi6
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: No
+Pedestrian access to bus stand: Yes
+Expanded URL: Opp Infosys</value>
+          </Data>
+          <Data name="address">
+            <value>Opp Infosys</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 09:37:35</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/P7scVpDiBAyb3Wmi6</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>Yes</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Opp Infosys</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>IIIT Busstop</name>
+        <address>17.446286171350188, 78.35125410054664</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 09:38:31<br>Location: https://maps.app.goo.gl/cKAp33Zr9XD3mynx5<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: 17.446286171350188, 78.35125410054664<br>address: 17.446286171350188, 78.35125410054664<br>Timestamp: 24/05/2026 09:38:31<br>Location: https://maps.app.goo.gl/cKAp33Zr9XD3mynx5<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: 17.446286171350188, 78.35125410054664]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 09:38:31
+Location: https://maps.app.goo.gl/cKAp33Zr9XD3mynx5
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: No
+Is there a route map available?: No
+Shelter: No
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: 17.446286171350188, 78.35125410054664</value>
+          </Data>
+          <Data name="address">
+            <value>17.446286171350188, 78.35125410054664</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 09:38:31</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/cKAp33Zr9XD3mynx5</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>No</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>17.446286171350188, 78.35125410054664</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>HCU small gate</name>
+        <address>HCU (HCU Main Gate)</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 09:44:56<br>Location: https://maps.app.goo.gl/3NPPx7rUCoVtD6gF6?g_st=ac<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: Yes<br>Expanded URL: HCU (HCU Main Gate)<br>address: HCU (HCU Main Gate)<br>Timestamp: 24/05/2026 09:44:56<br>Location: https://maps.app.goo.gl/3NPPx7rUCoVtD6gF6?g_st=ac<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: Yes<br>Expanded URL: HCU (HCU Main Gate)]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 09:44:56
+Location: https://maps.app.goo.gl/3NPPx7rUCoVtD6gF6?g_st=ac
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: Yes
+Expanded URL: HCU (HCU Main Gate)</value>
+          </Data>
+          <Data name="address">
+            <value>HCU (HCU Main Gate)</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 09:44:56</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/3NPPx7rUCoVtD6gF6?g_st=ac</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>Yes</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>HCU (HCU Main Gate)</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>HCU</name>
+        <address>HCU (HCU Main Gate)</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 09:45:29<br>Location: https://maps.app.goo.gl/3NPPx7rUCoVtD6gF6?g_st=ac<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: HCU (HCU Main Gate)<br>address: HCU (HCU Main Gate)<br>Timestamp: 24/05/2026 09:45:29<br>Location: https://maps.app.goo.gl/3NPPx7rUCoVtD6gF6?g_st=ac<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: HCU (HCU Main Gate)]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 09:45:29
+Location: https://maps.app.goo.gl/3NPPx7rUCoVtD6gF6?g_st=ac
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: No
+Expanded URL: HCU (HCU Main Gate)</value>
+          </Data>
+          <Data name="address">
+            <value>HCU (HCU Main Gate)</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 09:45:29</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/3NPPx7rUCoVtD6gF6?g_st=ac</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>HCU (HCU Main Gate)</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>serilingampally municipal office</name>
+        <address>Serilingampaly Municipal Office</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 09:47:53<br>Location: https://maps.app.goo.gl/FG9CCGUk7i8ESn3p8<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Serilingampaly Municipal Office<br>address: Serilingampaly Municipal Office<br>Timestamp: 24/05/2026 09:47:53<br>Location: https://maps.app.goo.gl/FG9CCGUk7i8ESn3p8<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Serilingampaly Municipal Office]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 09:47:53
+Location: https://maps.app.goo.gl/FG9CCGUk7i8ESn3p8
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: Yes
+Expanded URL: Serilingampaly Municipal Office</value>
+          </Data>
+          <Data name="address">
+            <value>Serilingampaly Municipal Office</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 09:47:53</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/FG9CCGUk7i8ESn3p8</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>Yes</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Serilingampaly Municipal Office</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Doyens Colony</name>
+        <address>Doyens Colony</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 09:50:06<br>Location: https://maps.app.goo.gl/BkhfDaW4caSXD7XNA<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Doyens Colony<br>address: Doyens Colony<br>Timestamp: 24/05/2026 09:50:06<br>Location: https://maps.app.goo.gl/BkhfDaW4caSXD7XNA<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Doyens Colony]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 09:50:06
+Location: https://maps.app.goo.gl/BkhfDaW4caSXD7XNA
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: No
+Expanded URL: Doyens Colony</value>
+          </Data>
+          <Data name="address">
+            <value>Doyens Colony</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 09:50:06</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/BkhfDaW4caSXD7XNA</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Doyens Colony</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Gulmohar Park</name>
+        <address>Gulmohar Park Colony</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 09:51:46<br>Location: https://maps.app.goo.gl/YY17UHNAJ2Air18y9<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Gulmohar Park Colony<br>address: Gulmohar Park Colony<br>Timestamp: 24/05/2026 09:51:46<br>Location: https://maps.app.goo.gl/YY17UHNAJ2Air18y9<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Gulmohar Park Colony]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 09:51:46
+Location: https://maps.app.goo.gl/YY17UHNAJ2Air18y9
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: Yes
+Expanded URL: Gulmohar Park Colony</value>
+          </Data>
+          <Data name="address">
+            <value>Gulmohar Park Colony</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 09:51:46</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/YY17UHNAJ2Air18y9</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>Yes</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Gulmohar Park Colony</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>BHEL</name>
+        <address>17.494390, 78.315843</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 09:55:53<br>Location: https://maps.app.goo.gl/iaELq8Ye7G5SN5rX8<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: Yes<br>Expanded URL: 17.494390, 78.315843<br>address: 17.494390, 78.315843<br>Timestamp: 24/05/2026 09:55:53<br>Location: https://maps.app.goo.gl/iaELq8Ye7G5SN5rX8<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: Yes<br>Expanded URL: 17.494390, 78.315843]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 09:55:53
+Location: https://maps.app.goo.gl/iaELq8Ye7G5SN5rX8
+Is the name of the bus stand clearly displayed?: No
+Is there seating?: No
+Is there a route map available?: No
+Shelter: No
+Schedule: No
+Pedestrian access to bus stand: Yes
+Expanded URL: 17.494390, 78.315843</value>
+          </Data>
+          <Data name="address">
+            <value>17.494390, 78.315843</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 09:55:53</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/iaELq8Ye7G5SN5rX8</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>No</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>Yes</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>17.494390, 78.315843</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>BHEL</name>
+        <address>17.49575486011142, 78.3162183558218</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 10:01:26<br>Location: https://maps.app.goo.gl/2pKB3U3HM88D6TqbA<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: 17.49575486011142, 78.3162183558218<br>address: 17.49575486011142, 78.3162183558218<br>Timestamp: 24/05/2026 10:01:26<br>Location: https://maps.app.goo.gl/2pKB3U3HM88D6TqbA<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: 17.49575486011142, 78.3162183558218]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 10:01:26
+Location: https://maps.app.goo.gl/2pKB3U3HM88D6TqbA
+Is the name of the bus stand clearly displayed?: No
+Is there seating?: No
+Is there a route map available?: No
+Shelter: No
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: 17.49575486011142, 78.3162183558218</value>
+          </Data>
+          <Data name="address">
+            <value>17.49575486011142, 78.3162183558218</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 10:01:26</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/2pKB3U3HM88D6TqbA</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>No</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>17.49575486011142, 78.3162183558218</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Madinaguda</name>
+        <address>Madinaguda</address>
+        <description><![CDATA[description: Timestamp: 24/05/2026 10:06:40<br>Location: https://maps.app.goo.gl/CXS7ZYBZBy7gDTdKA<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Madinaguda<br>address: Madinaguda<br>Timestamp: 24/05/2026 10:06:40<br>Location: https://maps.app.goo.gl/CXS7ZYBZBy7gDTdKA<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: No<br>Is there a route map available?: No<br>Shelter: No<br>Schedule: No<br>Pedestrian access to bus stand: No<br>Expanded URL: Madinaguda]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 10:06:40
+Location: https://maps.app.goo.gl/CXS7ZYBZBy7gDTdKA
+Is the name of the bus stand clearly displayed?: No
+Is there seating?: No
+Is there a route map available?: No
+Shelter: No
+Schedule: No
+Pedestrian access to bus stand: No
+Expanded URL: Madinaguda</value>
+          </Data>
+          <Data name="address">
+            <value>Madinaguda</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 10:06:40</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/CXS7ZYBZBy7gDTdKA</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>No</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Madinaguda</value>
+          </Data>
+        </ExtendedData>
+      </Placemark>
+      <Placemark>
+        <name>Miyapur X roads</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 10:11:00<br>Location: https://maps.app.goo.gl/ardAUTLbmENC7vCA9<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Miyapur X Road<br>address: Miyapur X Road<br>Timestamp: 24/05/2026 10:11:00<br>Location: https://maps.app.goo.gl/ardAUTLbmENC7vCA9<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Miyapur X Road]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 10:11:00
+Location: https://maps.app.goo.gl/ardAUTLbmENC7vCA9
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: No
+Expanded URL: Miyapur X Road</value>
+          </Data>
+          <Data name="address">
+            <value>Miyapur X Road</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 10:11:00</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/ardAUTLbmENC7vCA9</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Miyapur X Road</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.3624985,17.4967935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miyapur Metro station bus stop</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 10:13:00<br>Location: https://maps.app.goo.gl/BeF3UgzAPqpztw5X7<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Miyapur<br>address: Miyapur<br>Timestamp: 24/05/2026 10:13:00<br>Location: https://maps.app.goo.gl/BeF3UgzAPqpztw5X7<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Miyapur]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 10:13:00
+Location: https://maps.app.goo.gl/BeF3UgzAPqpztw5X7
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: No
+Pedestrian access to bus stand: Yes
+Expanded URL: Miyapur</value>
+          </Data>
+          <Data name="address">
+            <value>Miyapur</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 10:13:00</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/BeF3UgzAPqpztw5X7</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>Yes</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Miyapur</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.3710629,17.4966854,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>NIZAMPET X Roads</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 10:16:00<br>Location: https://maps.app.goo.gl/tFrzRWu5CQ5qDRKv6<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Nizampet X Road<br>address: Nizampet X Road<br>Timestamp: 24/05/2026 10:16:00<br>Location: https://maps.app.goo.gl/tFrzRWu5CQ5qDRKv6<br>Is the name of the bus stand clearly displayed?: Yes<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: Yes<br>Pedestrian access to bus stand: No<br>Expanded URL: Nizampet X Road]]></description>
+        <styleUrl>#icon-1899-E65100-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value>Timestamp: 24/05/2026 10:16:00
+Location: https://maps.app.goo.gl/tFrzRWu5CQ5qDRKv6
+Is the name of the bus stand clearly displayed?: Yes
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: Yes
+Pedestrian access to bus stand: No
+Expanded URL: Nizampet X Road</value>
+          </Data>
+          <Data name="address">
+            <value>Nizampet X Road</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 10:16:00</value>
+          </Data>
+          <Data name="Location">
+            <value>https://maps.app.goo.gl/tFrzRWu5CQ5qDRKv6</value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>Yes</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>No</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Nizampet X Road</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.3910875,17.498514,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>JNTU</name>
+        <description><![CDATA[description: Timestamp: 24/05/2026 10:21:08<br>Location: https://maps.google.com/?cid=15879963924406263739&entry=gps<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Viswanath Theatre-JNTU<br>address: Viswanath Theatre-JNTU<br>Timestamp: 24/05/2026 10:21:08<br>Location: https://maps.google.com/?cid=15879963924406263739&amp;entry=gps<br>Is the name of the bus stand clearly displayed?: No<br>Is there seating?: Yes<br>Is there a route map available?: No<br>Shelter: Yes<br>Schedule: No<br>Pedestrian access to bus stand: Yes<br>Expanded URL: Viswanath Theatre-JNTU]]></description>
+        <styleUrl>#icon-1899-FBC02D-labelson</styleUrl>
+        <ExtendedData>
+          <Data name="description">
+            <value><![CDATA[Timestamp: 24/05/2026 10:21:08
+Location: https://maps.google.com/?cid=15879963924406263739&entry=gps
+Is the name of the bus stand clearly displayed?: No
+Is there seating?: Yes
+Is there a route map available?: No
+Shelter: Yes
+Schedule: No
+Pedestrian access to bus stand: Yes
+Expanded URL: Viswanath Theatre-JNTU]]></value>
+          </Data>
+          <Data name="address">
+            <value>Viswanath Theatre-JNTU</value>
+          </Data>
+          <Data name="Timestamp">
+            <value>24/05/2026 10:21:08</value>
+          </Data>
+          <Data name="Location">
+            <value><![CDATA[https://maps.google.com/?cid=15879963924406263739&amp;entry=gps]]></value>
+          </Data>
+          <Data name="Is the name of the bus stand clearly displayed?">
+            <value>No</value>
+          </Data>
+          <Data name="Is there seating?">
+            <value>Yes</value>
+          </Data>
+          <Data name="Is there a route map available?">
+            <value>No</value>
+          </Data>
+          <Data name="Shelter">
+            <value>Yes</value>
+          </Data>
+          <Data name="Schedule">
+            <value>No</value>
+          </Data>
+          <Data name="Pedestrian access to bus stand">
+            <value>Yes</value>
+          </Data>
+          <Data name="Expanded URL">
+            <value>Viswanath Theatre-JNTU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            78.3970962,17.4960654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>MIG to Waverock</name>
+      <Placemark>
+        <name>MIG to Waverock</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            78.39151,17.48753,0
+            78.39143,17.48735,0
+            78.39139,17.48724,0
+            78.39136,17.48714,0
+            78.39129,17.48698,0
+            78.39123,17.48684,0
+            78.39117,17.48669,0
+            78.39109,17.48651,0
+            78.39097,17.48624,0
+            78.39085,17.48596,0
+            78.39078,17.48579,0
+            78.39072,17.48565,0
+            78.39059,17.48536,0
+            78.39046,17.48506,0
+            78.39032,17.48474,0
+            78.3902,17.48449,0
+            78.39021,17.48448,0
+            78.39022,17.48447,0
+            78.39023,17.48446,0
+            78.39023,17.48445,0
+            78.39024,17.48443,0
+            78.39025,17.48442,0
+            78.39025,17.4844,0
+            78.39026,17.48439,0
+            78.39026,17.48437,0
+            78.39026,17.48435,0
+            78.39026,17.48433,0
+            78.39025,17.48431,0
+            78.39025,17.48429,0
+            78.39024,17.48427,0
+            78.39023,17.48425,0
+            78.39022,17.48423,0
+            78.39022,17.48422,0
+            78.39021,17.48421,0
+            78.3902,17.4842,0
+            78.39019,17.48419,0
+            78.39017,17.48417,0
+            78.39016,17.48416,0
+            78.39015,17.48415,0
+            78.39013,17.48414,0
+            78.39012,17.48413,0
+            78.3901,17.48412,0
+            78.39009,17.48412,0
+            78.39008,17.48411,0
+            78.39006,17.48411,0
+            78.39001,17.48395,0
+            78.38992,17.48376,0
+            78.38986,17.4836,0
+            78.38975,17.4833,0
+            78.38973,17.48326,0
+            78.38968,17.48314,0
+            78.38964,17.48303,0
+            78.38961,17.48297,0
+            78.38959,17.48288,0
+            78.38954,17.48265,0
+            78.38952,17.48255,0
+            78.3895,17.4824,0
+            78.38949,17.4821,0
+            78.3895,17.48203,0
+            78.3895,17.482,0
+            78.3895,17.48195,0
+            78.38957,17.48152,0
+            78.38966,17.48119,0
+            78.38966,17.48115,0
+            78.38967,17.4811,0
+            78.38966,17.48106,0
+            78.38965,17.48099,0
+            78.38967,17.48091,0
+            78.38972,17.4807,0
+            78.38991,17.48017,0
+            78.39006,17.47973,0
+            78.3902,17.47937,0
+            78.39026,17.47922,0
+            78.39032,17.47906,0
+            78.39036,17.47894,0
+            78.3904,17.47882,0
+            78.39046,17.4786,0
+            78.39048,17.47842,0
+            78.39049,17.47833,0
+            78.3905,17.47822,0
+            78.3905,17.47814,0
+            78.3905,17.478,0
+            78.39048,17.47792,0
+            78.39047,17.47784,0
+            78.39045,17.47775,0
+            78.39043,17.47766,0
+            78.3904,17.47757,0
+            78.39036,17.47744,0
+            78.39033,17.47737,0
+            78.39027,17.47723,0
+            78.39019,17.47709,0
+            78.39015,17.47702,0
+            78.39009,17.47692,0
+            78.3897,17.4764,0
+            78.3895,17.47613,0
+            78.38936,17.47593,0
+            78.38902,17.47547,0
+            78.38883,17.47518,0
+            78.38874,17.47503,0
+            78.38861,17.47482,0
+            78.38845,17.47451,0
+            78.3884,17.47443,0
+            78.38835,17.47433,0
+            78.38827,17.47418,0
+            78.38823,17.4741,0
+            78.3881,17.47382,0
+            78.38805,17.47371,0
+            78.38798,17.47356,0
+            78.38787,17.4733,0
+            78.38779,17.47312,0
+            78.38772,17.47294,0
+            78.38768,17.47285,0
+            78.38765,17.47275,0
+            78.38755,17.47256,0
+            78.38743,17.47224,0
+            78.38737,17.47205,0
+            78.38734,17.47196,0
+            78.38726,17.47167,0
+            78.38721,17.47151,0
+            78.38717,17.47135,0
+            78.38714,17.4712,0
+            78.3871,17.47103,0
+            78.38709,17.47101,0
+            78.38706,17.47085,0
+            78.38702,17.47072,0
+            78.38697,17.47052,0
+            78.38697,17.4705,0
+            78.38696,17.47046,0
+            78.3869,17.47025,0
+            78.38687,17.4701,0
+            78.38687,17.47008,0
+            78.38686,17.47007,0
+            78.38684,17.46985,0
+            78.38675,17.46948,0
+            78.38671,17.46931,0
+            78.38667,17.46913,0
+            78.38662,17.46892,0
+            78.38658,17.46879,0
+            78.38637,17.46791,0
+            78.38618,17.46717,0
+            78.38603,17.46664,0
+            78.38599,17.46646,0
+            78.38594,17.46627,0
+            78.38585,17.46589,0
+            78.38568,17.46519,0
+            78.38567,17.46517,0
+            78.38559,17.46474,0
+            78.38553,17.46428,0
+            78.38547,17.46357,0
+            78.38545,17.46338,0
+            78.38543,17.46318,0
+            78.38539,17.46273,0
+            78.38537,17.46251,0
+            78.38533,17.46204,0
+            78.38529,17.46171,0
+            78.38519,17.46112,0
+            78.38517,17.461,0
+            78.3851,17.46058,0
+            78.38509,17.46054,0
+            78.38491,17.45972,0
+            78.38489,17.45958,0
+            78.38484,17.45938,0
+            78.3848,17.45914,0
+            78.38475,17.45885,0
+            78.38467,17.4585,0
+            78.3846,17.45811,0
+            78.38451,17.45775,0
+            78.38447,17.45755,0
+            78.38434,17.45698,0
+            78.38421,17.45657,0
+            78.38412,17.45629,0
+            78.38405,17.45611,0
+            78.38398,17.45591,0
+            78.38377,17.45529,0
+            78.38372,17.45514,0
+            78.38364,17.45495,0
+            78.3835,17.45449,0
+            78.38337,17.45416,0
+            78.38314,17.45374,0
+            78.38299,17.45349,0
+            78.38293,17.45339,0
+            78.38287,17.45331,0
+            78.38278,17.4532,0
+            78.38276,17.45318,0
+            78.38257,17.45299,0
+            78.38251,17.45293,0
+            78.38246,17.45287,0
+            78.38242,17.45284,0
+            78.38238,17.4528,0
+            78.38234,17.45277,0
+            78.38224,17.45265,0
+            78.38207,17.45246,0
+            78.38153,17.45184,0
+            78.38131,17.45159,0
+            78.3812,17.45148,0
+            78.38113,17.45142,0
+            78.38102,17.45135,0
+            78.38085,17.45124,0
+            78.38058,17.45108,0
+            78.3802,17.45086,0
+            78.38012,17.4508,0
+            78.37993,17.45068,0
+            78.3799,17.45066,0
+            78.37988,17.45064,0
+            78.37984,17.45061,0
+            78.37981,17.45058,0
+            78.37977,17.45054,0
+            78.37974,17.45051,0
+            78.37973,17.4505,0
+            78.37969,17.45041,0
+            78.3796,17.45025,0
+            78.37957,17.45016,0
+            78.3795,17.4499,0
+            78.37942,17.44951,0
+            78.37939,17.44934,0
+            78.37923,17.44877,0
+            78.37906,17.44844,0
+            78.37892,17.44823,0
+            78.3786,17.44784,0
+            78.37845,17.44766,0
+            78.37839,17.44759,0
+            78.37834,17.44751,0
+            78.37823,17.44735,0
+            78.3782,17.4473,0
+            78.3781,17.44714,0
+            78.37805,17.44707,0
+            78.37803,17.44704,0
+            78.37795,17.44691,0
+            78.37789,17.4468,0
+            78.37783,17.44669,0
+            78.37768,17.44646,0
+            78.37761,17.44632,0
+            78.37758,17.44624,0
+            78.37755,17.44618,0
+            78.37753,17.44612,0
+            78.37752,17.44605,0
+            78.3775,17.446,0
+            78.37748,17.44591,0
+            78.37746,17.4456,0
+            78.37739,17.4453,0
+            78.37736,17.44517,0
+            78.37735,17.44506,0
+            78.37733,17.44495,0
+            78.3773,17.44476,0
+            78.37727,17.44465,0
+            78.37726,17.44456,0
+            78.37726,17.44455,0
+            78.37725,17.44448,0
+            78.37724,17.44432,0
+            78.37724,17.44415,0
+            78.37725,17.44397,0
+            78.37725,17.44366,0
+            78.37725,17.44353,0
+            78.37726,17.44342,0
+            78.37728,17.44303,0
+            78.37731,17.44259,0
+            78.37732,17.44196,0
+            78.37733,17.44179,0
+            78.37733,17.44168,0
+            78.37733,17.4415,0
+            78.37731,17.44125,0
+            78.37731,17.44114,0
+            78.3773,17.44082,0
+            78.3773,17.44068,0
+            78.3773,17.44055,0
+            78.37731,17.44029,0
+            78.37731,17.44003,0
+            78.3773,17.43985,0
+            78.3773,17.43978,0
+            78.37729,17.43972,0
+            78.37728,17.43965,0
+            78.37726,17.43958,0
+            78.37724,17.43951,0
+            78.37722,17.43945,0
+            78.3772,17.43938,0
+            78.37715,17.43926,0
+            78.37701,17.43907,0
+            78.37696,17.43902,0
+            78.37691,17.43896,0
+            78.37648,17.43858,0
+            78.37635,17.43847,0
+            78.37628,17.43841,0
+            78.37607,17.43822,0
+            78.37596,17.43813,0
+            78.37587,17.43805,0
+            78.37557,17.43777,0
+            78.37546,17.43767,0
+            78.37536,17.43757,0
+            78.3751,17.43735,0
+            78.37504,17.43729,0
+            78.37503,17.43729,0
+            78.37492,17.43717,0
+            78.37477,17.43702,0
+            78.37468,17.43689,0
+            78.37458,17.43667,0
+            78.37455,17.43654,0
+            78.37453,17.43644,0
+            78.37453,17.4364,0
+            78.3745,17.43604,0
+            78.37451,17.43588,0
+            78.37452,17.43575,0
+            78.37453,17.43569,0
+            78.37455,17.43544,0
+            78.37457,17.43519,0
+            78.37461,17.43484,0
+            78.37464,17.43446,0
+            78.37465,17.43438,0
+            78.37472,17.43386,0
+            78.37476,17.43359,0
+            78.37478,17.43346,0
+            78.37492,17.4327,0
+            78.37501,17.43229,0
+            78.37512,17.43176,0
+            78.37521,17.4312,0
+            78.37531,17.43044,0
+            78.37534,17.43024,0
+            78.37535,17.43015,0
+            78.37535,17.43004,0
+            78.37535,17.42997,0
+            78.37534,17.4299,0
+            78.37532,17.42981,0
+            78.37518,17.42951,0
+            78.37513,17.42941,0
+            78.37508,17.42931,0
+            78.37504,17.42923,0
+            78.375,17.42916,0
+            78.37495,17.42907,0
+            78.37484,17.42897,0
+            78.37482,17.42896,0
+            78.3748,17.42895,0
+            78.37475,17.42894,0
+            78.37469,17.42895,0
+            78.37466,17.42896,0
+            78.37462,17.42897,0
+            78.37455,17.429,0
+            78.37449,17.42903,0
+            78.37443,17.42906,0
+            78.37434,17.4291,0
+            78.37412,17.42937,0
+            78.37402,17.4295,0
+            78.37389,17.42965,0
+            78.37361,17.42996,0
+            78.37328,17.43028,0
+            78.37315,17.4304,0
+            78.37304,17.43049,0
+            78.37297,17.43055,0
+            78.37276,17.43069,0
+            78.37264,17.43079,0
+            78.37212,17.43121,0
+            78.37143,17.43174,0
+            78.37128,17.43185,0
+            78.37082,17.4322,0
+            78.37053,17.43243,0
+            78.37046,17.43249,0
+            78.37038,17.43255,0
+            78.37032,17.4326,0
+            78.37017,17.43273,0
+            78.37016,17.43275,0
+            78.3701,17.43282,0
+            78.37,17.43294,0
+            78.36975,17.4332,0
+            78.36951,17.43345,0
+            78.36934,17.4336,0
+            78.369,17.43395,0
+            78.36864,17.43433,0
+            78.36834,17.43468,0
+            78.36825,17.43479,0
+            78.3682,17.43484,0
+            78.36802,17.43503,0
+            78.36767,17.43537,0
+            78.36734,17.43569,0
+            78.36717,17.43584,0
+            78.36662,17.43633,0
+            78.36611,17.43678,0
+            78.36572,17.4371,0
+            78.36531,17.43744,0
+            78.36524,17.43749,0
+            78.36514,17.43757,0
+            78.3651,17.4376,0
+            78.36485,17.43781,0
+            78.3647,17.43793,0
+            78.36455,17.43805,0
+            78.3644,17.43816,0
+            78.36412,17.43837,0
+            78.36401,17.43845,0
+            78.36373,17.43865,0
+            78.36346,17.43885,0
+            78.36332,17.43895,0
+            78.36303,17.43915,0
+            78.36291,17.43923,0
+            78.36285,17.43927,0
+            78.36255,17.43948,0
+            78.36238,17.43959,0
+            78.36184,17.43994,0
+            78.36147,17.44018,0
+            78.3612,17.44035,0
+            78.36116,17.44037,0
+            78.36106,17.44041,0
+            78.3608,17.44058,0
+            78.36075,17.44061,0
+            78.36013,17.44099,0
+            78.35978,17.44121,0
+            78.35963,17.4413,0
+            78.35947,17.4414,0
+            78.35927,17.44152,0
+            78.35906,17.44162,0
+            78.35885,17.44171,0
+            78.35844,17.44188,0
+            78.35805,17.44205,0
+            78.35728,17.44238,0
+            78.35685,17.44251,0
+            78.35672,17.44257,0
+            78.35608,17.44284,0
+            78.35592,17.4429,0
+            78.35546,17.44309,0
+            78.35526,17.44318,0
+            78.35511,17.44324,0
+            78.35499,17.4433,0
+            78.35489,17.44336,0
+            78.3548,17.44341,0
+            78.35472,17.44345,0
+            78.3546,17.44353,0
+            78.35458,17.44355,0
+            78.35451,17.44361,0
+            78.35443,17.44369,0
+            78.35438,17.44373,0
+            78.35397,17.44407,0
+            78.35372,17.44426,0
+            78.35369,17.44424,0
+            78.35366,17.44424,0
+            78.35363,17.44424,0
+            78.35359,17.44424,0
+            78.35353,17.44426,0
+            78.35347,17.44428,0
+            78.35341,17.44432,0
+            78.3532,17.44447,0
+            78.353,17.44464,0
+            78.35295,17.44467,0
+            78.35293,17.44469,0
+            78.35291,17.44469,0
+            78.35286,17.44471,0
+            78.35283,17.44471,0
+            78.35275,17.44472,0
+            78.35273,17.44473,0
+            78.35269,17.44473,0
+            78.35266,17.44473,0
+            78.35251,17.44474,0
+            78.35246,17.44471,0
+            78.35209,17.4445,0
+            78.3522,17.4444,0
+            78.35225,17.44436,0
+            78.35232,17.44441,0
+            78.35234,17.44443,0
+            78.35232,17.44441,0
+            78.35225,17.44436,0
+            78.3522,17.4444,0
+            78.35209,17.4445,0
+            78.35208,17.4445,0
+            78.35144,17.44413,0
+            78.35135,17.44407,0
+            78.3513,17.44402,0
+            78.35129,17.444,0
+            78.35121,17.44392,0
+            78.35118,17.44388,0
+            78.35115,17.44383,0
+            78.35108,17.44372,0
+            78.35096,17.44353,0
+            78.35079,17.44326,0
+            78.35056,17.44288,0
+            78.35046,17.44271,0
+            78.35032,17.44249,0
+            78.35018,17.44226,0
+            78.35004,17.44204,0
+            78.34992,17.44184,0
+            78.34985,17.44172,0
+            78.3498,17.44165,0
+            78.34961,17.44135,0
+            78.34948,17.44112,0
+            78.34943,17.44102,0
+            78.34938,17.44092,0
+            78.34931,17.44078,0
+            78.34929,17.44072,0
+            78.34907,17.44022,0
+            78.34892,17.43989,0
+            78.34892,17.43988,0
+            78.34884,17.43973,0
+            78.34879,17.43962,0
+            78.34875,17.43952,0
+            78.34871,17.43942,0
+            78.34869,17.43937,0
+            78.34858,17.43914,0
+            78.34833,17.43858,0
+            78.34818,17.43823,0
+            78.34793,17.43765,0
+            78.34735,17.43664,0
+            78.34716,17.43633,0
+            78.34715,17.43632,0
+            78.34714,17.43629,0
+            78.34695,17.43597,0
+            78.34686,17.43583,0
+            78.3468,17.43572,0
+            78.34674,17.43559,0
+            78.34669,17.4355,0
+            78.34652,17.43519,0
+            78.34626,17.43476,0
+            78.34591,17.43414,0
+            78.34558,17.4336,0
+            78.34557,17.43357,0
+            78.3452,17.43296,0
+            78.34491,17.4325,0
+            78.34472,17.4322,0
+            78.34455,17.43194,0
+            78.34451,17.43188,0
+            78.34442,17.43174,0
+            78.34435,17.43163,0
+            78.34422,17.43143,0
+            78.34412,17.43128,0
+            78.34402,17.43112,0
+            78.34396,17.43102,0
+            78.34376,17.43071,0
+            78.34353,17.43035,0
+            78.34335,17.43008,0
+            78.34317,17.4298,0
+            78.34297,17.42946,0
+            78.34284,17.42925,0
+            78.3425,17.42871,0
+            78.3422,17.42825,0
+            78.34193,17.42782,0
+            78.34151,17.42717,0
+            78.34115,17.42661,0
+            78.34096,17.4263,0
+            78.34085,17.42614,0
+            78.34068,17.42587,0
+            78.34061,17.42575,0
+            78.34053,17.42562,0
+            78.3403,17.42528,0
+            78.34004,17.42487,0
+            78.33998,17.42479,0
+            78.33991,17.42468,0
+            78.33987,17.42462,0
+            78.33974,17.4244,0
+            78.33923,17.4236,0
+            78.33918,17.42351,0
+            78.3391,17.42339,0
+            78.33886,17.423,0
+            78.33867,17.42269,0
+            78.33863,17.42263,0
+            78.33854,17.42248,0
+            78.33827,17.4221,0
+            78.33821,17.42201,0
+            78.33813,17.42189,0
+            78.33807,17.42177,0
+            78.33801,17.4217,0
+            78.33786,17.42144,0
+            78.33772,17.42123,0
+            78.33753,17.42092,0
+            78.33752,17.42092,0
+            78.33743,17.42077,0
+            78.33692,17.41993,0
+            78.33724,17.41974,0
+            78.33771,17.41946,0
+            78.33789,17.41936,0
+            78.33836,17.41908,0
+            78.33867,17.41891,0
+            78.33913,17.41863,0
+            78.33957,17.41841,0
+            78.33973,17.41831,0
+            78.33978,17.41828,0
+            78.33989,17.41822,0
+            78.34007,17.41812,0
+            78.3402,17.41803,0
+            78.34036,17.41794,0
+            78.34066,17.41778,0
+            78.34125,17.41748,0
+            78.34152,17.41735,0
+            78.34199,17.4171,0
+            78.34238,17.41692,0
+            78.34242,17.4169,0
+            78.34278,17.4175,0
+            78.34299,17.41783,0
+            78.34308,17.41798,0
+            78.34343,17.41855,0
+            78.34346,17.41861,0
+            78.34366,17.41891,0
+            78.34396,17.41937,0
+            78.34424,17.41981,0
+            78.34429,17.41991,0
+            78.34437,17.42003,0
+            78.34443,17.42013,0
+            78.34462,17.42043,0
+            78.34473,17.42062,0
+            78.34497,17.42099,0
+            78.3451,17.4212,0
+            78.34521,17.42135,0
+            78.34525,17.42142,0
+            78.34554,17.42116,0
+            78.34559,17.42111,0
+            78.34577,17.42096,0
+            78.34587,17.42088,0
+            78.34594,17.42083,0
+            78.34597,17.42081,0
+            78.34603,17.42079,0
+            78.34617,17.42072,0
+            78.34628,17.42066,0
+            78.34637,17.42061,0
+            78.34639,17.4206,0
+            78.34648,17.42055,0
+            78.34671,17.42042,0
+            78.34689,17.42032,0
+            78.34707,17.42022,0
+            78.34726,17.42011,0
+            78.3473,17.42015,0
+            78.34732,17.42017,0
+            78.34736,17.42019,0
+            78.34738,17.4202,0
+            78.3474,17.4202,0
+            78.34744,17.42019,0
+            78.34746,17.42018,0
+            78.34752,17.42015,0
+            78.34767,17.42007,0
+            78.34797,17.41996,0
+            78.34804,17.41994,0
+            78.34815,17.4199,0
+            78.34831,17.41985,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>MIG-2/7, JNTU - Hitech City Rd, Kukatpally Housing Board Colony, Phase 3, K P H B Phase 3, Kukatpally, Hyderabad, Telangana 500072, India</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.3915084,17.4875287,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yashodha</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.385429,17.4631757,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>IDBI Bank</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.3523438,17.4444292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nanakramguda Infotech</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.3423795,17.4169188,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waverock Sez</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.346891,17.4203211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waverock</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.3483056,17.4198506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Waverock to BHEL</name>
+      <Placemark>
+        <name>Waverock to BHEL</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            78.34831,17.41985,0
+            78.34815,17.4199,0
+            78.34804,17.41994,0
+            78.34797,17.41996,0
+            78.34767,17.42007,0
+            78.34752,17.42015,0
+            78.34746,17.42018,0
+            78.34744,17.42019,0
+            78.3474,17.4202,0
+            78.34738,17.4202,0
+            78.34736,17.42019,0
+            78.34732,17.42017,0
+            78.3473,17.42015,0
+            78.34726,17.42011,0
+            78.34721,17.42005,0
+            78.34713,17.41989,0
+            78.3468,17.41937,0
+            78.34643,17.41878,0
+            78.3463,17.41856,0
+            78.34612,17.41826,0
+            78.34585,17.41783,0
+            78.34557,17.41737,0
+            78.34553,17.41732,0
+            78.34525,17.41748,0
+            78.34504,17.4176,0
+            78.34491,17.41768,0
+            78.34436,17.418,0
+            78.34424,17.41808,0
+            78.34422,17.41809,0
+            78.34421,17.41809,0
+            78.34343,17.41855,0
+            78.34316,17.4187,0
+            78.34246,17.41911,0
+            78.34182,17.41949,0
+            78.34088,17.42002,0
+            78.34049,17.42024,0
+            78.34003,17.42051,0
+            78.33938,17.4209,0
+            78.33924,17.42098,0
+            78.33899,17.42113,0
+            78.3387,17.4213,0
+            78.33833,17.4215,0
+            78.33801,17.4217,0
+            78.33791,17.42177,0
+            78.33795,17.42184,0
+            78.33804,17.42197,0
+            78.33814,17.4221,0
+            78.33821,17.42221,0
+            78.33833,17.4224,0
+            78.33846,17.4226,0
+            78.3391,17.42365,0
+            78.33942,17.42414,0
+            78.33965,17.4245,0
+            78.34002,17.42506,0
+            78.3403,17.42549,0
+            78.34043,17.42572,0
+            78.34051,17.42584,0
+            78.34098,17.42652,0
+            78.34131,17.42705,0
+            78.34175,17.42778,0
+            78.34179,17.42783,0
+            78.34213,17.42836,0
+            78.34273,17.42933,0
+            78.34286,17.42953,0
+            78.34309,17.42989,0
+            78.34353,17.4306,0
+            78.34356,17.43065,0
+            78.34411,17.43147,0
+            78.34412,17.43149,0
+            78.3442,17.43162,0
+            78.34425,17.43169,0
+            78.34448,17.43203,0
+            78.34461,17.43223,0
+            78.34481,17.43255,0
+            78.34509,17.43301,0
+            78.34548,17.43365,0
+            78.34617,17.43483,0
+            78.34653,17.43546,0
+            78.34661,17.43559,0
+            78.34661,17.4356,0
+            78.34674,17.43581,0
+            78.34674,17.43582,0
+            78.34687,17.43601,0
+            78.34705,17.43633,0
+            78.34725,17.43668,0
+            78.34729,17.43675,0
+            78.34775,17.43757,0
+            78.34776,17.43758,0
+            78.34782,17.43772,0
+            78.34789,17.43787,0
+            78.34796,17.43804,0
+            78.34801,17.43813,0
+            78.34807,17.4383,0
+            78.34822,17.43862,0
+            78.34831,17.43882,0
+            78.34833,17.43885,0
+            78.34843,17.43908,0
+            78.34856,17.43938,0
+            78.34856,17.43939,0
+            78.3486,17.43946,0
+            78.34894,17.44021,0
+            78.34898,17.44029,0
+            78.34917,17.44074,0
+            78.34922,17.44083,0
+            78.34928,17.44095,0
+            78.34938,17.44116,0
+            78.34949,17.44137,0
+            78.34964,17.4416,0
+            78.34974,17.44175,0
+            78.34984,17.44192,0
+            78.34987,17.44197,0
+            78.35007,17.44227,0
+            78.35038,17.44279,0
+            78.35047,17.44293,0
+            78.35056,17.44307,0
+            78.35087,17.44358,0
+            78.35094,17.44371,0
+            78.35097,17.44376,0
+            78.35104,17.44387,0
+            78.35105,17.44388,0
+            78.35111,17.44396,0
+            78.35116,17.44403,0
+            78.35121,17.44409,0
+            78.35127,17.44414,0
+            78.35133,17.44418,0
+            78.35139,17.44422,0
+            78.35145,17.44426,0
+            78.35159,17.44434,0
+            78.35176,17.44444,0
+            78.35193,17.44453,0
+            78.35241,17.4448,0
+            78.35275,17.44501,0
+            78.35242,17.44529,0
+            78.35219,17.44548,0
+            78.35213,17.44553,0
+            78.35197,17.44566,0
+            78.35184,17.4458,0
+            78.3516,17.44605,0
+            78.35131,17.44634,0
+            78.35108,17.44657,0
+            78.35095,17.4467,0
+            78.35078,17.44686,0
+            78.35056,17.44709,0
+            78.34976,17.44786,0
+            78.34972,17.4479,0
+            78.34963,17.44798,0
+            78.34911,17.44848,0
+            78.34878,17.44882,0
+            78.34873,17.44887,0
+            78.34858,17.44902,0
+            78.34829,17.4493,0
+            78.34788,17.44969,0
+            78.34739,17.45012,0
+            78.34719,17.45026,0
+            78.34699,17.4504,0
+            78.34668,17.45058,0
+            78.34656,17.45064,0
+            78.34644,17.4507,0
+            78.34637,17.45073,0
+            78.34616,17.45084,0
+            78.34555,17.45112,0
+            78.3452,17.45129,0
+            78.34499,17.4514,0
+            78.34482,17.45151,0
+            78.34481,17.45151,0
+            78.34466,17.45162,0
+            78.34462,17.45165,0
+            78.34441,17.4518,0
+            78.34412,17.45203,0
+            78.3439,17.45225,0
+            78.34369,17.45248,0
+            78.34341,17.45282,0
+            78.34313,17.45319,0
+            78.34266,17.4538,0
+            78.34259,17.45389,0
+            78.34234,17.45422,0
+            78.34216,17.45442,0
+            78.34206,17.45454,0
+            78.34198,17.45463,0
+            78.34183,17.45478,0
+            78.34161,17.45501,0
+            78.34143,17.45519,0
+            78.3412,17.4554,0
+            78.34099,17.4556,0
+            78.34068,17.4559,0
+            78.34044,17.45614,0
+            78.34015,17.45643,0
+            78.33998,17.45659,0
+            78.33983,17.45675,0
+            78.33974,17.45684,0
+            78.3395,17.45716,0
+            78.3387,17.45828,0
+            78.33862,17.45837,0
+            78.33853,17.45851,0
+            78.3384,17.45869,0
+            78.33834,17.45878,0
+            78.33821,17.45894,0
+            78.33805,17.45919,0
+            78.33796,17.4593,0
+            78.33778,17.45955,0
+            78.33762,17.45977,0
+            78.33741,17.46003,0
+            78.33736,17.4601,0
+            78.33715,17.46041,0
+            78.33696,17.46063,0
+            78.33674,17.46084,0
+            78.33641,17.46115,0
+            78.33599,17.46152,0
+            78.33576,17.46174,0
+            78.3357,17.4618,0
+            78.33552,17.46197,0
+            78.33548,17.46202,0
+            78.33545,17.46207,0
+            78.33542,17.46211,0
+            78.33537,17.46221,0
+            78.33533,17.46228,0
+            78.33531,17.46233,0
+            78.33522,17.4625,0
+            78.33494,17.46311,0
+            78.33479,17.46344,0
+            78.33458,17.46384,0
+            78.33421,17.46443,0
+            78.33397,17.46481,0
+            78.33378,17.46513,0
+            78.33352,17.46546,0
+            78.3334,17.46559,0
+            78.33322,17.4658,0
+            78.33224,17.46694,0
+            78.33163,17.46772,0
+            78.33134,17.46807,0
+            78.33128,17.46815,0
+            78.33122,17.46821,0
+            78.33119,17.46824,0
+            78.33113,17.46832,0
+            78.33082,17.46873,0
+            78.33065,17.46899,0
+            78.33059,17.46908,0
+            78.33056,17.46914,0
+            78.33052,17.46921,0
+            78.33045,17.46941,0
+            78.33039,17.46957,0
+            78.33033,17.46977,0
+            78.33029,17.46988,0
+            78.33021,17.47014,0
+            78.33013,17.47045,0
+            78.33,17.47083,0
+            78.32998,17.47088,0
+            78.32996,17.47092,0
+            78.32991,17.47101,0
+            78.32984,17.47114,0
+            78.32978,17.47123,0
+            78.32973,17.47129,0
+            78.32969,17.47133,0
+            78.32964,17.47138,0
+            78.32959,17.47142,0
+            78.32951,17.47148,0
+            78.32944,17.47152,0
+            78.32917,17.47171,0
+            78.32879,17.47197,0
+            78.32823,17.47238,0
+            78.3281,17.47247,0
+            78.32796,17.47258,0
+            78.3275,17.4729,0
+            78.32728,17.47307,0
+            78.32707,17.47324,0
+            78.32692,17.47337,0
+            78.32673,17.47357,0
+            78.32637,17.47408,0
+            78.32581,17.47494,0
+            78.32569,17.47511,0
+            78.32523,17.47576,0
+            78.32512,17.47593,0
+            78.32457,17.47679,0
+            78.32447,17.47695,0
+            78.32436,17.47711,0
+            78.32428,17.47724,0
+            78.32424,17.47735,0
+            78.32419,17.47742,0
+            78.32414,17.4775,0
+            78.32409,17.47757,0
+            78.324,17.4777,0
+            78.32397,17.47774,0
+            78.32394,17.47778,0
+            78.32391,17.47782,0
+            78.32387,17.47785,0
+            78.32384,17.47789,0
+            78.32379,17.47793,0
+            78.32375,17.47796,0
+            78.32371,17.47799,0
+            78.32367,17.47802,0
+            78.32362,17.47805,0
+            78.32358,17.47808,0
+            78.32354,17.4781,0
+            78.32349,17.47813,0
+            78.32345,17.47816,0
+            78.32339,17.47819,0
+            78.32332,17.47823,0
+            78.32325,17.47826,0
+            78.3232,17.47828,0
+            78.32314,17.47831,0
+            78.3231,17.47832,0
+            78.32307,17.47834,0
+            78.32302,17.47835,0
+            78.32297,17.47837,0
+            78.32292,17.47838,0
+            78.32286,17.47839,0
+            78.32281,17.4784,0
+            78.32277,17.4784,0
+            78.32272,17.4784,0
+            78.32267,17.47841,0
+            78.32263,17.47841,0
+            78.32255,17.4784,0
+            78.32246,17.47838,0
+            78.3224,17.47836,0
+            78.32234,17.47834,0
+            78.32228,17.47831,0
+            78.32223,17.47828,0
+            78.32218,17.47824,0
+            78.32214,17.47822,0
+            78.32209,17.47819,0
+            78.32205,17.47816,0
+            78.322,17.47813,0
+            78.32192,17.47807,0
+            78.32185,17.47802,0
+            78.32179,17.47797,0
+            78.32174,17.47793,0
+            78.32169,17.4779,0
+            78.3216,17.47784,0
+            78.32155,17.47782,0
+            78.32149,17.47779,0
+            78.32144,17.47778,0
+            78.3214,17.47777,0
+            78.32136,17.47776,0
+            78.32132,17.47775,0
+            78.32128,17.47775,0
+            78.32121,17.47775,0
+            78.32117,17.47775,0
+            78.32107,17.47775,0
+            78.32094,17.47776,0
+            78.32081,17.47776,0
+            78.32076,17.47777,0
+            78.32058,17.47779,0
+            78.32048,17.47781,0
+            78.32043,17.47782,0
+            78.32038,17.47783,0
+            78.32034,17.47784,0
+            78.3203,17.47785,0
+            78.32018,17.47789,0
+            78.32009,17.47795,0
+            78.32005,17.47799,0
+            78.32002,17.47803,0
+            78.31999,17.47807,0
+            78.31996,17.47812,0
+            78.31993,17.47819,0
+            78.31989,17.47828,0
+            78.31987,17.47836,0
+            78.31982,17.47855,0
+            78.31979,17.47876,0
+            78.31985,17.47894,0
+            78.31987,17.47916,0
+            78.3199,17.47947,0
+            78.31975,17.47949,0
+            78.3196,17.4795,0
+            78.31942,17.47952,0
+            78.31907,17.47954,0
+            78.31884,17.47957,0
+            78.31857,17.47958,0
+            78.31844,17.4796,0
+            78.31832,17.47961,0
+            78.31807,17.47963,0
+            78.318,17.47963,0
+            78.31747,17.47969,0
+            78.31708,17.47973,0
+            78.31698,17.47973,0
+            78.31675,17.47975,0
+            78.31619,17.47978,0
+            78.31595,17.4798,0
+            78.31577,17.47981,0
+            78.31559,17.47984,0
+            78.31515,17.47988,0
+            78.31503,17.47989,0
+            78.31482,17.47991,0
+            78.31446,17.47994,0
+            78.31434,17.47995,0
+            78.31334,17.48003,0
+            78.31239,17.4801,0
+            78.31202,17.48013,0
+            78.31194,17.48013,0
+            78.31188,17.48014,0
+            78.31177,17.48014,0
+            78.3117,17.48015,0
+            78.31143,17.48016,0
+            78.31112,17.48018,0
+            78.31108,17.48018,0
+            78.31105,17.48018,0
+            78.31105,17.48028,0
+            78.31107,17.48046,0
+            78.31107,17.48061,0
+            78.31107,17.48068,0
+            78.31106,17.48094,0
+            78.31105,17.48112,0
+            78.31105,17.48137,0
+            78.31105,17.48151,0
+            78.31106,17.48178,0
+            78.31106,17.48179,0
+            78.31106,17.48181,0
+            78.31106,17.48183,0
+            78.31107,17.48189,0
+            78.31107,17.48197,0
+            78.31108,17.48202,0
+            78.31113,17.48225,0
+            78.3112,17.48254,0
+            78.31125,17.48269,0
+            78.31129,17.48282,0
+            78.31141,17.48313,0
+            78.31148,17.48327,0
+            78.31153,17.48339,0
+            78.31158,17.48347,0
+            78.31174,17.48374,0
+            78.31219,17.48453,0
+            78.3125,17.48509,0
+            78.31276,17.48559,0
+            78.31288,17.48583,0
+            78.31314,17.48636,0
+            78.31325,17.48668,0
+            78.31331,17.48685,0
+            78.31334,17.48698,0
+            78.31343,17.48735,0
+            78.31351,17.48768,0
+            78.31356,17.48793,0
+            78.31361,17.48818,0
+            78.31369,17.48858,0
+            78.31381,17.48909,0
+            78.31415,17.49057,0
+            78.3142,17.49074,0
+            78.31428,17.49099,0
+            78.31436,17.49122,0
+            78.31447,17.49151,0
+            78.31462,17.49188,0
+            78.31488,17.49254,0
+            78.31495,17.4927,0
+            78.315,17.49282,0
+            78.315,17.49283,0
+            78.31506,17.49294,0
+            78.31508,17.49296,0
+            78.3151,17.49298,0
+            78.31514,17.49303,0
+            78.31523,17.4931,0
+            78.31536,17.49316,0
+            78.31541,17.49318,0
+            78.31571,17.49329,0
+            78.31587,17.49335,0
+            78.31591,17.4934,0
+            78.31595,17.49347,0
+            78.31596,17.49353,0
+            78.31596,17.49356,0
+            78.31596,17.49359,0
+            78.31594,17.49383,0
+            78.31593,17.49398,0
+            78.3159,17.49418,0
+            78.31586,17.49438,0
+            78.31584,17.49442,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Waverock</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.3483056,17.4198506,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ICICI Junction</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.3382087,17.4222126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>IIIT Busstop</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.3513087,17.4463445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>BHEL</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.3158418,17.4944235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>BHEL to Viswanath Theatre-JNTU</name>
+      <Placemark>
+        <name>BHEL to Viswanath Theatre-JNTU</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            78.31617,17.49565,0
+            78.3163,17.49558,0
+            78.31646,17.49551,0
+            78.31661,17.49545,0
+            78.31671,17.49542,0
+            78.31684,17.49539,0
+            78.31697,17.49536,0
+            78.31705,17.49534,0
+            78.31732,17.4953,0
+            78.31747,17.49528,0
+            78.31756,17.49528,0
+            78.31761,17.49528,0
+            78.31786,17.49528,0
+            78.31791,17.49528,0
+            78.31819,17.49528,0
+            78.31834,17.49527,0
+            78.3188,17.49527,0
+            78.31892,17.49527,0
+            78.31896,17.49527,0
+            78.3193,17.49526,0
+            78.31954,17.49526,0
+            78.32008,17.49527,0
+            78.32161,17.49526,0
+            78.32208,17.49525,0
+            78.32213,17.49524,0
+            78.32218,17.49523,0
+            78.32223,17.49521,0
+            78.32227,17.49519,0
+            78.3223,17.49517,0
+            78.32233,17.49514,0
+            78.32248,17.49514,0
+            78.3225,17.49514,0
+            78.32309,17.49513,0
+            78.32333,17.49512,0
+            78.32348,17.49512,0
+            78.32415,17.49511,0
+            78.32444,17.49511,0
+            78.32487,17.49511,0
+            78.32514,17.49511,0
+            78.32522,17.49511,0
+            78.32543,17.49512,0
+            78.32572,17.49511,0
+            78.32627,17.49512,0
+            78.32632,17.49512,0
+            78.3269,17.4951,0
+            78.32701,17.49509,0
+            78.32735,17.49507,0
+            78.32754,17.49507,0
+            78.32795,17.49505,0
+            78.32835,17.495,0
+            78.3286,17.49498,0
+            78.32877,17.49496,0
+            78.32897,17.49496,0
+            78.32916,17.49496,0
+            78.32927,17.49496,0
+            78.32967,17.49502,0
+            78.32981,17.49503,0
+            78.33011,17.49507,0
+            78.3303,17.49509,0
+            78.33075,17.49512,0
+            78.33131,17.49514,0
+            78.33145,17.49515,0
+            78.33176,17.49518,0
+            78.33206,17.49522,0
+            78.33234,17.49526,0
+            78.3328,17.49536,0
+            78.33326,17.49547,0
+            78.33335,17.49549,0
+            78.33403,17.49562,0
+            78.33414,17.49563,0
+            78.33426,17.49563,0
+            78.33437,17.49564,0
+            78.33476,17.49565,0
+            78.33478,17.49565,0
+            78.33488,17.49565,0
+            78.33519,17.49564,0
+            78.33554,17.49563,0
+            78.3359,17.49563,0
+            78.33636,17.49561,0
+            78.33655,17.49561,0
+            78.33675,17.49561,0
+            78.33689,17.4956,0
+            78.33713,17.49558,0
+            78.33739,17.49556,0
+            78.33765,17.49552,0
+            78.33798,17.49547,0
+            78.33812,17.49545,0
+            78.3388,17.49537,0
+            78.33905,17.49532,0
+            78.33937,17.49528,0
+            78.33953,17.49526,0
+            78.33974,17.49524,0
+            78.33995,17.49522,0
+            78.3403,17.49522,0
+            78.34046,17.49523,0
+            78.34062,17.49524,0
+            78.34091,17.49526,0
+            78.34123,17.49528,0
+            78.34168,17.4953,0
+            78.34187,17.49531,0
+            78.34196,17.49531,0
+            78.34229,17.49531,0
+            78.34248,17.4953,0
+            78.34271,17.49529,0
+            78.34289,17.49527,0
+            78.34301,17.49526,0
+            78.34343,17.49522,0
+            78.34353,17.49521,0
+            78.34371,17.4952,0
+            78.34393,17.49517,0
+            78.34429,17.49514,0
+            78.34478,17.49509,0
+            78.345,17.49506,0
+            78.34525,17.49502,0
+            78.34589,17.49493,0
+            78.34615,17.4949,0
+            78.34629,17.49488,0
+            78.34641,17.49486,0
+            78.34669,17.49482,0
+            78.34677,17.4948,0
+            78.3469,17.49478,0
+            78.34705,17.49476,0
+            78.34717,17.49474,0
+            78.34736,17.4947,0
+            78.34758,17.49464,0
+            78.34802,17.49449,0
+            78.3484,17.49436,0
+            78.34875,17.49424,0
+            78.34905,17.49416,0
+            78.34918,17.49413,0
+            78.3493,17.4941,0
+            78.34939,17.49409,0
+            78.34949,17.49408,0
+            78.34962,17.49407,0
+            78.34976,17.49406,0
+            78.34989,17.49407,0
+            78.35002,17.49407,0
+            78.35004,17.49407,0
+            78.35015,17.49407,0
+            78.35025,17.49408,0
+            78.35035,17.49409,0
+            78.35054,17.4941,0
+            78.3506,17.49411,0
+            78.35073,17.49413,0
+            78.35074,17.49413,0
+            78.35104,17.49416,0
+            78.35114,17.49418,0
+            78.35148,17.49423,0
+            78.35158,17.49425,0
+            78.35165,17.49427,0
+            78.35173,17.49429,0
+            78.35178,17.49431,0
+            78.35183,17.49432,0
+            78.35203,17.49437,0
+            78.35223,17.49443,0
+            78.35256,17.4945,0
+            78.35317,17.49466,0
+            78.35345,17.49472,0
+            78.35433,17.49495,0
+            78.35545,17.49525,0
+            78.35551,17.49527,0
+            78.35576,17.49534,0
+            78.35627,17.49546,0
+            78.3565,17.49553,0
+            78.35703,17.49567,0
+            78.35736,17.49576,0
+            78.35741,17.49578,0
+            78.35745,17.49579,0
+            78.35747,17.4958,0
+            78.35759,17.49583,0
+            78.358,17.49594,0
+            78.35829,17.49601,0
+            78.35854,17.49607,0
+            78.35891,17.49617,0
+            78.35914,17.49622,0
+            78.35938,17.49629,0
+            78.35975,17.4964,0
+            78.36004,17.49647,0
+            78.36035,17.49654,0
+            78.36042,17.49656,0
+            78.36053,17.49657,0
+            78.36074,17.49662,0
+            78.36079,17.49663,0
+            78.36099,17.49669,0
+            78.36116,17.49672,0
+            78.36124,17.49674,0
+            78.36135,17.49675,0
+            78.36161,17.49679,0
+            78.36168,17.49678,0
+            78.36181,17.49678,0
+            78.3621,17.49679,0
+            78.36221,17.49679,0
+            78.3623,17.49678,0
+            78.36244,17.49678,0
+            78.36269,17.49677,0
+            78.36286,17.49675,0
+            78.36293,17.49674,0
+            78.36358,17.4967,0
+            78.36419,17.49665,0
+            78.3643,17.49665,0
+            78.36483,17.49662,0
+            78.36539,17.4966,0
+            78.36554,17.4966,0
+            78.36598,17.49661,0
+            78.36618,17.49662,0
+            78.36679,17.49665,0
+            78.3671,17.49666,0
+            78.36741,17.49667,0
+            78.36763,17.49667,0
+            78.36821,17.49667,0
+            78.36849,17.49667,0
+            78.36865,17.49666,0
+            78.36896,17.49665,0
+            78.36898,17.49665,0
+            78.36918,17.49664,0
+            78.36953,17.49664,0
+            78.36989,17.49664,0
+            78.37068,17.49663,0
+            78.37163,17.49664,0
+            78.37177,17.49663,0
+            78.37219,17.49663,0
+            78.3727,17.49663,0
+            78.37364,17.49661,0
+            78.37373,17.49661,0
+            78.37397,17.49662,0
+            78.37417,17.49662,0
+            78.37426,17.49663,0
+            78.37434,17.49665,0
+            78.37449,17.49669,0
+            78.37475,17.49678,0
+            78.37525,17.49695,0
+            78.37557,17.49704,0
+            78.37568,17.49707,0
+            78.37592,17.49713,0
+            78.37625,17.49718,0
+            78.3765,17.49723,0
+            78.37689,17.4973,0
+            78.37703,17.49733,0
+            78.37717,17.49738,0
+            78.37723,17.49739,0
+            78.37734,17.49743,0
+            78.3774,17.49746,0
+            78.37748,17.49749,0
+            78.37773,17.4976,0
+            78.37782,17.49765,0
+            78.37794,17.49771,0
+            78.37808,17.49778,0
+            78.37816,17.49782,0
+            78.37831,17.4979,0
+            78.3785,17.49799,0
+            78.37901,17.49824,0
+            78.37913,17.49829,0
+            78.37929,17.49837,0
+            78.37981,17.49863,0
+            78.38057,17.49898,0
+            78.38068,17.49903,0
+            78.38096,17.49913,0
+            78.38108,17.49917,0
+            78.38124,17.49923,0
+            78.38144,17.4993,0
+            78.38162,17.49937,0
+            78.38189,17.49945,0
+            78.38211,17.4995,0
+            78.38223,17.49952,0
+            78.38233,17.49954,0
+            78.38243,17.49955,0
+            78.38256,17.49956,0
+            78.38269,17.49956,0
+            78.38287,17.49956,0
+            78.38303,17.49955,0
+            78.38345,17.4995,0
+            78.38382,17.49945,0
+            78.38426,17.49938,0
+            78.38435,17.49936,0
+            78.38451,17.49935,0
+            78.38497,17.49927,0
+            78.38516,17.49924,0
+            78.38565,17.49917,0
+            78.38571,17.49916,0
+            78.38581,17.49915,0
+            78.38602,17.49912,0
+            78.38692,17.49898,0
+            78.38748,17.49891,0
+            78.38798,17.49885,0
+            78.38813,17.49883,0
+            78.38854,17.49879,0
+            78.38875,17.49877,0
+            78.38919,17.49872,0
+            78.38945,17.4987,0
+            78.38994,17.49862,0
+            78.39,17.49862,0
+            78.39036,17.49857,0
+            78.39072,17.49851,0
+            78.39082,17.49849,0
+            78.39103,17.49844,0
+            78.39119,17.49838,0
+            78.39138,17.49832,0
+            78.39153,17.49827,0
+            78.3918,17.49816,0
+            78.39188,17.49812,0
+            78.39245,17.49776,0
+            78.39268,17.4976,0
+            78.39282,17.49751,0
+            78.39298,17.4974,0
+            78.39313,17.4973,0
+            78.39334,17.49717,0
+            78.39363,17.497,0
+            78.39386,17.49686,0
+            78.39416,17.49674,0
+            78.39426,17.4967,0
+            78.39439,17.49666,0
+            78.39466,17.49657,0
+            78.3948,17.49653,0
+            78.39498,17.49649,0
+            78.39509,17.49646,0
+            78.39513,17.49645,0
+            78.39551,17.49635,0
+            78.39598,17.49624,0
+            78.3961,17.49621,0
+            78.39643,17.49613,0
+            78.39645,17.49613,0
+            78.39654,17.4961,0
+            78.39664,17.49608,0
+            78.39685,17.49603,0
+            78.39706,17.49597,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Bhel, Gouthami Nagar Colony, Jawahar Colony, Chanda Nagar, Hyderabad, Telangana 502032, India</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.3161747,17.4956489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Viswanath Theatre-JNTU, Jal Vayu Vihar, Kukatpally, Hyderabad, Telangana 500085, India</name>
+        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            78.3970584,17.4959703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
