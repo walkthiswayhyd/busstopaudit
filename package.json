@@ -13,8 +13,7 @@
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
-    "@material-ui/icons": "^4.11.3",
-    "@material-ui/utils": "^4.11.3",
+    "@mui/icons-material": "^9.2.0",
     "@mui/material": "^9.1.1",
     "@mui/system": "^9.2.0",
     "@tmcw/togeojson": "^7.1.2",
