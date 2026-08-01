@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BusMap from "./components/BusMap";
-import useStops from "./hooks/useStops";
+// import useStops from "./hooks/useStops";
 import useLocation from "./hooks/useLocation";
 import useAudits from "./hooks/useAudits";
 import { distanceKm } from "./utils/distance";
@@ -9,16 +9,15 @@ import AddStopButton from "./components/AddStopButton";
 import AppHeader from "./components/AppHeader";
 
 function App() {
-  const stops = useStops();
+  // const stops = useStops();
   const location = useLocation();
   const audits = useAudits();
-
   const [viewMode, setViewMode] = useState("audit");
   const [selectedStop, setSelectedStop] = useState(null);
   const [isAddingStop, setIsAddingStop] = useState(false);
 
   const nearbyStops = location
-    ? stops
+    ? audits
         .map((stop) => ({
           ...stop,
           distance: distanceKm(
@@ -46,7 +45,7 @@ function App() {
         viewMode={viewMode}
       />
       <AppHeader
-        stops={stops}
+        stops={audits}
         onSelect={setSelectedStop}
         viewMode={viewMode}
         onViewModeChange={() =>
