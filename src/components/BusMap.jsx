@@ -70,7 +70,7 @@ export default function BusMap({
           </Marker>
         ))}
       {viewMode === "audit" &&
-        audits.map((audit) => (
+        (audits ?? []).map((audit) => (
           <Marker
             key={audit._uuid}
             position={[

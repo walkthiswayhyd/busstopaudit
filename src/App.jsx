@@ -9,13 +9,14 @@ import AppHeader from "./components/AppHeader";
 
 function App() {
   const location = useLocation();
-  const audits = useAudits();
+  const { audits, loading } = useAudits();
   const [viewMode, setViewMode] = useState("audit");
   const [selectedStop, setSelectedStop] = useState(null);
   const [isAddingStop, setIsAddingStop] = useState(false);
-  console.log("App audits", audits);
+  const auditList = audits ?? [];
+
   const nearbyStops = location
-    ? audits
+    ? auditList
         .map((stop) => ({
           ...stop,
           distance: distanceKm(
@@ -39,18 +40,35 @@ function App() {
         nearbyStops={nearbyStops}
         isAddingStop={isAddingStop}
         setIsAddingStop={setIsAddingStop}
-        audits={audits}
+        audits={auditList}
         viewMode={viewMode}
       />
       <AppHeader
-        stops={audits}
+        stops={auditList}
         onSelect={setSelectedStop}
         viewMode={viewMode}
         onViewModeChange={() =>
           setViewMode(viewMode === "audit" ? "public" : "audit")
         }
-        auditCount={audits.length}
+        auditCount={auditList.length}
       />
+      {loading && (
+        <div
+          style={{
+            position: "fixed",
+            top: 16,
+            right: 16,
+            zIndex: 1000,
+            padding: "10px 14px",
+            background: "rgba(255,255,255,0.95)",
+            border: "1px solid #ddd",
+            borderRadius: 10,
+            boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+          }}
+        >
+          Loading audit data...
+        </div>
+      )}
       <AddStopButton
         isAddingStop={isAddingStop}
         setIsAddingStop={setIsAddingStop}
