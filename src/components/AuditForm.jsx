@@ -52,7 +52,6 @@ export default function AuditForm({ selectedStop, setSelectedStop }) {
     )
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         alert("Audit saved");
         setSelectedStop(null);
       })

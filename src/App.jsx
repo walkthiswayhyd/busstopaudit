@@ -12,8 +12,6 @@ function App() {
   const location = useLocation();
   const { audits, loading } = useAudits();
   const stops = useStops();
-
-  console.log("App audits", audits, loading);
   const [viewMode, setViewMode] = useState("audit");
   const [selectedStop, setSelectedStop] = useState(null);
   const [isAddingStop, setIsAddingStop] = useState(false);

@@ -13,8 +13,6 @@ export const handler = async (event, context) => {
     const data = await response.json();
     const results = Array.isArray(data?.results) ? data.results : Array.isArray(data) ? data : [];
 
-    console.log("audits function results", results);
-
     return {
       statusCode: 200,
       headers: {

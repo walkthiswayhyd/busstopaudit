@@ -17,7 +17,6 @@ export default function BusMap({
   audits,
   viewMode,
 }) {
-  console.log("BusMap audits", audits);
   return (
     <MapContainer
       center={[17.45, 78.38]}
@@ -57,7 +56,6 @@ export default function BusMap({
             icon={stopIcon}
             eventHandlers={{
               click: () => {
-                console.log(stop.stop_name);
                 setSelectedStop(stop);
               },
             }}
