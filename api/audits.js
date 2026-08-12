@@ -10,29 +10,10 @@ export const handler = async (event, context) => {
       }
     );
 
-    // Handle upstream 304 (Not Modified) by returning an empty result set
-    if (response.status === 304) {
-      return {
-        statusCode: 200,
-        headers: {
-          "Content-Type": "application/json",
-          "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
-        },
-        body: JSON.stringify({ results: [] }),
-      };
-    }
-
-    if (!response.ok) {
-      const text = await response.text().catch(() => "");
-      console.error("Kobo fetch failed", response.status, text);
-      return {
-        statusCode: 502,
-        body: JSON.stringify({ error: "Failed to fetch audits from upstream" }),
-      };
-    }
-
     const data = await response.json();
     const results = Array.isArray(data?.results) ? data.results : Array.isArray(data) ? data : [];
+
+    console.log("audits function results", results);
 
     return {
       statusCode: 200,
