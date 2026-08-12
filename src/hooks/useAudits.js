@@ -14,5 +14,6 @@ export default function useAudits() {
       .catch(console.error);
   }, []);
 
+  console.log("useAudits audits", audits, loading);
   return { audits, loading };
 }
