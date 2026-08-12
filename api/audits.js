@@ -1,4 +1,5 @@
-export default async function handler(req, res) {
+// Netlify Function handler
+export const handler = async (event, context) => {
   try {
     const response = await fetch(
       `https://kf.kobotoolbox.org/api/v2/assets/${process.env.KOBO_ASSET_UID}/data/`,
@@ -9,15 +10,43 @@ export default async function handler(req, res) {
       }
     );
 
+    // Handle upstream 304 (Not Modified) by returning an empty result set
+    if (response.status === 304) {
+      return {
+        statusCode: 200,
+        headers: {
+          "Content-Type": "application/json",
+          "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+        },
+        body: JSON.stringify({ results: [] }),
+      };
+    }
+
+    if (!response.ok) {
+      const text = await response.text().catch(() => "");
+      console.error("Kobo fetch failed", response.status, text);
+      return {
+        statusCode: 502,
+        body: JSON.stringify({ error: "Failed to fetch audits from upstream" }),
+      };
+    }
+
     const data = await response.json();
-    const results = Array.isArray(data?.results) ? data.results : [];
+    const results = Array.isArray(data?.results) ? data.results : Array.isArray(data) ? data : [];
 
-    res.status(200).json({ results });
+    return {
+      statusCode: 200,
+      headers: {
+        "Content-Type": "application/json",
+        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+      },
+      body: JSON.stringify({ results }),
+    };
   } catch (err) {
-    console.error(err);
-
-    res.status(500).json({
-      error: "Failed to fetch audits",
-    });
+    console.error("audits function error", err);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: "Failed to fetch audits" }),
+    };
   }
-}
+};
