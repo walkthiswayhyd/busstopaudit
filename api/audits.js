@@ -1,31 +1,36 @@
-// Netlify Function handler
-export const handler = async (event, context) => {
+export default async function handler(req, res) {
   try {
-    const response = await fetch(
-      `https://kf.kobotoolbox.org/api/v2/assets/${process.env.KOBO_ASSET_UID}/data/`,
-      {
+    let url = `https://kf.kobotoolbox.org/api/v2/assets/${process.env.KOBO_ASSET_UID}/data/`;
+
+    let allResults = [];
+
+    while (url) {
+      const response = await fetch(url, {
         headers: {
           Authorization: `Token ${process.env.KOBO_API_TOKEN}`,
         },
+      });
+
+      if (!response.ok) {
+        throw new Error(`Kobo API returned ${response.status}`);
       }
-    );
 
-    const data = await response.json();
-    const results = Array.isArray(data?.results) ? data.results : Array.isArray(data) ? data : [];
+      const data = await response.json();
 
-    return {
-      statusCode: 200,
-      headers: {
-        "Content-Type": "application/json",
-        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
-      },
-      body: JSON.stringify({ results }),
-    };
+      allResults = [...allResults, ...(data.results || [])];
+
+      url = data.next;
+    }
+
+    res.status(200).json({
+      count: allResults.length,
+      results: allResults,
+    });
   } catch (err) {
-    console.error("audits function error", err);
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ error: "Failed to fetch audits" }),
-    };
+    console.error(err);
+
+    res.status(500).json({
+      error: "Failed to fetch audits",
+    });
   }
-};
+}

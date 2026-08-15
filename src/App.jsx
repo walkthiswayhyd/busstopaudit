@@ -10,67 +10,30 @@ import AppHeader from "./components/AppHeader";
 
 function App() {
   const location = useLocation();
-  const { audits, loading } = useAudits();
+  const { audits, auditCount } = useAudits();
+  const [selectedAudit, setSelectedAudit] = useState(null);
   const stops = useStops();
   const [viewMode, setViewMode] = useState("audit");
   const [selectedStop, setSelectedStop] = useState(null);
   const [isAddingStop, setIsAddingStop] = useState(false);
-  const auditList = audits ?? [];
 
-  const nearbyStops = location
-    ? auditList
-        .map((stop) => ({
-          ...stop,
-          distance: distanceKm(
-            location.lat,
-            location.lon,
-            stop.stop_lat,
-            stop.stop_lon,
-          ),
-        }))
-        .filter((stop) => stop.distance <= 3)
-        .sort((a, b) => a.distance - b.distance)
-        .slice(0, 20)
-    : [];
 
   return (
     <>
+      <AppHeader
+        audits={audits}
+        onSelect={setSelectedAudit}
+        auditCount={auditCount}
+      />
       <BusMap
         selectedStop={selectedStop}
         setSelectedStop={setSelectedStop}
         userLocation={location}
-        nearbyStops={nearbyStops}
         isAddingStop={isAddingStop}
         setIsAddingStop={setIsAddingStop}
-        audits={auditList}
+        audits={audits}
         viewMode={viewMode}
       />
-      <AppHeader
-        stops={stops}
-        onSelect={setSelectedStop}
-        viewMode={viewMode}
-        onViewModeChange={() =>
-          setViewMode(viewMode === "audit" ? "public" : "audit")
-        }
-        auditCount={auditList.length}
-      />
-      {loading && (
-        <div
-          style={{
-            position: "fixed",
-            top: 16,
-            right: 16,
-            zIndex: 1000,
-            padding: "10px 14px",
-            background: "rgba(255,255,255,0.95)",
-            border: "1px solid #ddd",
-            borderRadius: 10,
-            boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
-          }}
-        >
-          Loading audit data...
-        </div>
-      )}
       <AddStopButton
         isAddingStop={isAddingStop}
         setIsAddingStop={setIsAddingStop}
