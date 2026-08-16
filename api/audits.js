@@ -1,4 +1,4 @@
-export default async function handler(req, res) {
+export default async function handler(request) {
   try {
     let url = `https://kf.kobotoolbox.org/api/v2/assets/${process.env.KOBO_ASSET_UID}/data/`;
 
@@ -22,15 +22,31 @@ export default async function handler(req, res) {
       url = data.next;
     }
 
-    res.status(200).json({
-      count: allResults.length,
-      results: allResults,
-    });
+    return new Response(
+      JSON.stringify({
+        count: allResults.length,
+        results: allResults,
+      }),
+      {
+        status: 200,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
   } catch (err) {
-    console.error(err);
+    console.error("Failed to fetch audits:", err);
 
-    res.status(500).json({
-      error: "Failed to fetch audits",
-    });
+    return new Response(
+      JSON.stringify({
+        error: "Failed to fetch audits",
+      }),
+      {
+        status: 500,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
   }
 }
