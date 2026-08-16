@@ -1,57 +1,52 @@
 .app {
-  position: relative;
-  height: calc(100vh - 140px);
+  height: 100dvh;
   width: 100%;
-  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Leaflet zoom controls repositioning */
-:global(.leaflet-control-zoom) {
-  position: absolute;
-  bottom: 20px !important;
-  left: 20px !important;
-  right: auto !important;
-  top: auto !important;
-  z-index: 999;
+.mapContainer {
+  flex: 1;
+  position: relative;
+  min-height: 0;
 }
 
 .searchOverlay {
   position: absolute;
-
   top: 20px;
   left: 50%;
-
   transform: translateX(-50%);
-
   display: flex;
   justify-content: center;
-
   width: 100%;
-
   z-index: 1000;
 }
 
 .locationButton {
   position: absolute;
-
   right: 16px;
   bottom: 24px;
-
   width: 52px;
   height: 52px;
-
   display: flex;
   align-items: center;
   justify-content: center;
-
   background: white;
-
   border-radius: 50%;
-
-  box-shadow:
-    0 4px 12px rgba(0,0,0,.2);
-
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-
   z-index: 1000;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.auditCount {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
 }

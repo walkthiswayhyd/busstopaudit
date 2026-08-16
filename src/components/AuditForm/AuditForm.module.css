@@ -1,0 +1,148 @@
+.container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 360px;
+  max-height: calc(100% - 40px);
+  overflow-y: auto;
+
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+
+  z-index: 10000;
+  box-sizing: border-box;
+
+  pointer-events: auto;
+
+  /* Makes scrolling feel much better */
+  overscroll-behavior: contain;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+
+  margin-bottom: 20px;
+}
+
+.header h3 {
+  margin: 8px 0 0;
+  font-size: 20px;
+}
+
+.header button {
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.header label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  padding: 0 10px;
+  box-sizing: border-box;
+
+  font-size: 14px;
+}
+
+.section {
+  margin-bottom: 22px;
+}
+
+.section h4 {
+  margin: 0 0 10px;
+
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.hint {
+  margin: -4px 0 10px;
+
+  font-size: 12px;
+  color: #777;
+}
+
+.optionRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+
+  padding: 7px 0;
+
+  font-size: 14px;
+  line-height: 1.4;
+
+  cursor: pointer;
+}
+
+.optionRow input {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.submitButton {
+  position: relative;
+  z-index: 2001;
+
+  width: 100%;
+  height: 46px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #1976d2;
+  color: white;
+
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  pointer-events: auto;
+}
+
+.submitButton:hover {
+  background: #1565c0;
+}
+
+.submitButton:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+@media (max-width: 600px) {
+  .container {
+    top: 10px;
+    right: 10px;
+    left: 10px;
+
+    width: auto;
+    max-height: calc(100% - 20px);
+
+    padding: 16px;
+  }
+
+  .header h3 {
+    font-size: 18px;
+  }
+}
