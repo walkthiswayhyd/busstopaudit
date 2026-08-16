@@ -100,11 +100,13 @@ export default async function handler(req, res) {
     /*
      * Build the exact Kobo form XML.
      */
+
+    const formId = process.env.KOBO_ASSET_UID;
     const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<a7nmHAxYyG4SGVRkST6JZB
+<${formId}
   xmlns:jr="http://openrosa.org/javarosa"
   xmlns:orx="http://openrosa.org/xforms"
-  id="a7nmHAxYyG4SGVRkST6JZB"
+  id="${formId}"
   ${version ? `version="${escapeXml(version)}"` : ""}
 >
   <formhub>
@@ -138,7 +140,7 @@ export default async function handler(req, res) {
   <meta>
     <instanceID>${instanceId}</instanceID>
   </meta>
-</a7nmHAxYyG4SGVRkST6JZB>`;
+</${formId}>`;
 
     console.log("Kobo XML:", xml);
 
