@@ -1,3 +1,4 @@
+import { useMemo } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -6,11 +7,15 @@ import {
   Circle,
 } from "react-leaflet";
 
-import { userIcon, auditedStopIcon } from "../../utils/icons";
+import { userIcon, auditedStopIcon, stopIcon } from "../../utils/icons";
+import useStops from "../../hooks/useStops";
+import { distanceKm } from "../../utils/distance";
 
 import FlyToStop from "../FlyToStop";
 import RecenterMap from "../RecenterMap";
 import MapClickHandler from "../MapClickHandler";
+
+const PROXIMITY_RADIUS_M = 100;
 
 export default function BusMap({
   selectedStop,
@@ -23,6 +28,25 @@ export default function BusMap({
   audits,
   recenterRequest,
 }) {
+  const stops = useStops();
+
+  // GTFS stops that fall inside the user's proximity circle.
+  const nearbyStops = useMemo(() => {
+    if (!userLocation) return [];
+
+    return stops.filter((stop) => {
+      const lat = Number(stop.stop_lat);
+      const lon = Number(stop.stop_lon);
+
+      if (!Number.isFinite(lat) || !Number.isFinite(lon)) return false;
+
+      return (
+        distanceKm(userLocation.lat, userLocation.lon, lat, lon) * 1000 <=
+        PROXIMITY_RADIUS_M
+      );
+    });
+  }, [stops, userLocation]);
+
   return (
     <MapContainer
       center={[17.45, 78.38]}
@@ -65,10 +89,21 @@ export default function BusMap({
 
           <Circle
             center={[userLocation.lat, userLocation.lon]}
-            radius={100}
+            radius={PROXIMITY_RADIUS_M}
           />
         </>
       )}
+
+      {/* GTFS stops within the proximity circle */}
+      {nearbyStops.map((stop) => (
+        <Marker
+          key={stop.stop_id}
+          position={[Number(stop.stop_lat), Number(stop.stop_lon)]}
+          icon={stopIcon}
+        >
+          <Popup>{stop.stop_name}</Popup>
+        </Marker>
+      ))}
 
       {/* Audited bus stops */}
       {audits.map((audit) => {
