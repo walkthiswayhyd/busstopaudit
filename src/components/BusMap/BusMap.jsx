@@ -1,3 +1,4 @@
+import { Fragment } from "react";
 import {
   MapContainer,
   TileLayer,
@@ -8,6 +9,7 @@ import {
 
 import { userIcon, auditedStopIcon } from "../../utils/icons";
 
+import styles from "./BusMap.module.css";
 import FlyToStop from "../FlyToStop";
 import RecenterMap from "../RecenterMap";
 import MapClickHandler from "../MapClickHandler";
@@ -93,17 +95,25 @@ export default function BusMap({
             }}
           >
             <Popup>
-              <strong>{audit.Bus_Stop_Name}</strong>
-              <br />
-              Roof: {audit.roof || "—"}
-              <br />
-              Lighting: {audit.lighting || "—"}
-              <br />
-              Seating: {audit.Seating || "—"}
-              <br />
-              Route Map: {audit.route_map || "—"}
-              <br />
-              Schedule: {audit.schedule || "—"}
+              <div className={styles.popup}>
+                <h3 className={styles.title}>{audit.Bus_Stop_Name}</h3>
+                <dl className={styles.list}>
+                  {[
+                    ["Roof", audit.roof],
+                    ["Lighting", audit.lighting],
+                    ["Seating", audit.Seating],
+                    ["Route Map", audit.route_map],
+                    ["Schedule", audit.schedule],
+                  ].map(([label, value]) => (
+                    <Fragment key={label}>
+                      <dt>{label}</dt>
+                      <dd className={value ? undefined : styles.empty}>
+                        {value || "—"}
+                      </dd>
+                    </Fragment>
+                  ))}
+                </dl>
+              </div>
             </Popup>
           </Marker>
         );
